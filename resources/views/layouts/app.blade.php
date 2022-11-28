@@ -78,5 +78,6 @@
             @yield('content')
         </main>
     </div>
+    <script src="https://js.pusher.com/7.2.0/pusher.min.js"></script>
 </body>
 </html>
