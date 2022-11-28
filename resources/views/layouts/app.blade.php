@@ -15,6 +15,7 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @stack('scripts')
 </head>
 <body>
     <div id="app">
@@ -73,6 +74,7 @@
         </nav>
 
         <main class="py-4">
+            <div id="notificattion" class="alert mx-3 invisible"></div>
             @yield('content')
         </main>
     </div>
